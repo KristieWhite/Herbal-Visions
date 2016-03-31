@@ -29,9 +29,9 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
-  /*position: relative;*/
-  width: 90%;
-  /*max-width: 960px;*/
+  position: relative;
+  width: 100%;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -44,18 +44,14 @@
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    /*width: 85%;*/
-    width: 90%;
-    padding: 0; 
-  }
+    width: 85%;
+    padding: 0; }
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    /*width: 80%; */
-    width: 90%;
-  }
+    width: 80%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -128,8 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  /*font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Nunito', sans-serif;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -359,8 +354,7 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 2.5rem; 
-}
+  margin-bottom: 2.5rem; }
 
 
 /* Utilities

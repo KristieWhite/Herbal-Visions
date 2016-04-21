@@ -376,6 +376,10 @@ form {
 .u-pull-left {
   float: left; }
 
+.class {
+  text-align: center;
+}
+
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
